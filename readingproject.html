@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Maximilian Hart</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="/index.html">Home</a></li>
+					<li><a href="/index.html#story">My Story</a></li>
+					<li><a href="/index.html#portfolio">Portfolio</a></li>
+					<li><a href="/index.html#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image img"><img src="images/IRCalc.webp" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1><strong>Class Reading Leaderboard</strong></h1>
+							</header>
+							<p>This is a <strong>Google Sheets calculator</strong> I made to help me track my students' reading and introduce a little competition while I was at it.</p>
+						</div>
+				</div>
+			</article>
+
+		<!-- Work -->
+			<article id="story" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>The problem.</h2>
+						<p>As an English teacher, I'd implemented an "independent reading program" for my students. They could read just about anything they wanted and get credit for it.</p></br>
+						<p>The hard part for me was keeping track of it all. I needed a one-page solution where I could:</p></br>
+						<p>1. Input books as students read.</p>
+						<p>2. Easily see their grade each quarter. (There were rollover points and extra complications.)</p>
+						<p>3. Be able to quickly answer "How much have I read?" from students.</p>
+						<p>4. See a "leaderboard" of the top students overall and in each class period. I had an extra whiteboard in my room that I wanted to put the top five on to serve as a bit of motivation.</p></br>
+						
+						<h2>The solution.</h2>
+						<span class="image.featured">
+							<figure>
+								<img src="images/IRCalc.webp" alt="" />
+								<figcaption>Names changed to protect the guilty.</figcaption>
+							</figure>
+						</span></br>
+						
+						<p>I made a Google Sheets workspace for myself, with a home page lookup. It was my first time using query language, so it was a learning curve to be sure.</p></br>
+						<p>This home page fulfilled requirements #3 and #4. At the top, I could type in any student's name, and it would show me the number of pages they'd read, their letter grade for the current quarter, and how many "rollover pages" they had toward the next quarter.</p><br>
+						<p>On the top right were some statistics for my own use. Yes, each student did read, on average, almost 1000 pages that year! And overall they read over 120,000 pages. Rather a success, if you ask me.</p><br>
+						<p>Under that were each class period's top five readers, and to the left was an aggregated overall leaderboard.</p><br>
+						
+						<span class="image.featured">
+							<figure>
+								<img src="images/ClassPage.webp" alt="" />
+								<figcaption>"Addison" had some predictable taste. She branched out a little as the year progressed though!</figcaption>
+							</figure>
+						</span></br>
+
+						<p>Each class had their own tab, where I could input student's books as they finished and talked to me about them. This page fulfilled my #1 and #2 requirements. All I had to do was type in the Title and Author and Page Count, and the sheet did the rest of the heavy lifting.</p><br>
+						<p>I had a few students who read so much they broke the sheet. "Addison" here was one of them. I found myself having to add extra lines and rework some formulae to make things come out right again. </p><br>
+
+						<h2>Lessons.</h2>
+						<p>This particular project taught me a lot about nested if statements, queries, and planning out requirements before I started.</p><br>
+						<p>It also forced me to evaluate how much time I was spending on a project rather than saving. It's very easy for me to get lost in endless additional features and tweaks. This sheet could certainly be prettier and have extra bells and whistles, but in the midst of a busy school year, I forced myself to prioritize, plan ahead, and focus on function.</p>
+					</header>
+					<footer>
+						<a href="/index.html" class="button large scrolly">Back to home page</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<div class="col-12">
+							<hr />
+							<h3>Find me on ...</h3>
+							<ul class="social">
+								<li><a href="https://linkedin.com/in/maximilianhart" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/MaximilianHart" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							</ul>
+							<hr />
+						</div>
+					</header>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Maximilian Hart. All rights reserved.</li><li>Design: <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
