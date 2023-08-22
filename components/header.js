@@ -6,14 +6,24 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <nav id="nav">
-    <ul class="container">
-      <li><a href="#top">Home</a></li>
-      <li><a href="#story">About</a></li>
-      <li><a href="#substack">Blog</a></li>
-      <li><a href="#portfolio">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+				<ul class="container">
+					<li>
+            <a href="/">Home</a>
+          </li>
+					<li>
+            <a href="credentials.html">Credentials</a>
+          </li>
+          <li>
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+					<li>
+            <a href="https://maximizingsalesforce.substack.com" target="_blank">Blog</a>
+          </li>
+					<li>
+            <a href="#contact">Contact</a>
+          </li>
+				</ul>
+			</nav>
     `;
   }
 }
