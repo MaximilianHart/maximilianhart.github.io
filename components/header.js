@@ -17,9 +17,6 @@ class Header extends HTMLElement {
             <a href="portfolio.html">Portfolio</a>
           </li>
 					<li>
-            <a href="https://maximizingsalesforce.substack.com" target="_blank">Blog</a>
-          </li>
-					<li>
             <a href="#contact">Contact</a>
           </li>
 				</ul>
