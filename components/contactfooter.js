@@ -9,7 +9,7 @@ class ContactFooter extends HTMLElement {
     <div class="container medium">
       <header>
         <h2>How can I help you?</h2>
-        <p>Use the form below to send me an email, or connect on <a href="https://linkedin.com/in/maximilianhart">LinkedIn</a>.</p>
+        <p>See my <a href="/images/MaximilianHartResume.pdf" target="_blank">resume</a>, use the form below to send me an email, or connect on <a href="https://linkedin.com/in/maximilianhart">LinkedIn</a>.</p>
       </header>
       <div class="row">
         <div class="col-12">
